@@ -1,0 +1,5 @@
+package chap_1_solns;
+
+public class Q1_1 {
+	system.out("Bismillahir Rahmanir Rahim");
+}

@@ -1,0 +1,22 @@
+package java_proj;
+
+public class Q1_1 {
+
+	static boolean isUniqueChars(String s){
+		if(s.length() > 128)
+			return false;
+		
+		boolean[] char_set = new boolean[128];
+		System.out.print(char_set[2]);
+		return true;
+		
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		isUniqueChars("abb");
+		
+	}
+
+}
